@@ -1,0 +1,43 @@
+Without Feature Selection (Both before and after normalization)
+           Rsq            Adj_Rsq
+Train      100             100
+Test       89              100
+
+
+Taking only numerical variable from the features 
+           Rsq            Adj_Rsq
+Train      84.14            83.54
+Test       72.29            69.73
+
+
+Taking only numerical variable from the features and applying univariate model performance to it
+           Rsq            Adj_Rsq
+Train      81.06            80.81
+Test       70.57            69.68
+
+
+Taking the features and applying univariate model performance to it
+           Rsq            Adj_Rsq
+Train      87.79            85.99
+Test       87.49            74.18
+
+
+Taking the features and applying univariate model performance to it after normalization
+           Rsq            Adj_Rsq
+Train      88.14            86.06
+Test       87.03            80.05
+
+
+Taking the features based on p value >0.5 with normalization
+           Rsq            Adj_Rsq
+Train      91.31            90.69
+Test       27.15            13.73
+
+
+Taking the features based on p value >0.5 with normalization and applying univariate to it
+           Rsq            Adj_Rsq
+Train      79.92            79.54
+Test       84.55            83.85
+
+
+Seeing the R values and adjusr rsq values and considering the regression reports I decide to go ahead with the last method(ie: Taking the features based on p value >0.5 with normalization and applying univariate to it)
